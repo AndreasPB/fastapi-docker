@@ -2,8 +2,8 @@ version: "3"
 services: 
   core_api:
     build: .
-    container_name: "core_api"
+    container_name: "my_api"
     ports: 
-        - "8000:8020"
+        - "8000:8000"
     volumes: 
-        - ./app/:/app
+        - ./src/:/app/src
