@@ -11,7 +11,7 @@ app = FastAPI()
 
 some_file_path = "media/img/bg_clouds.jpg"
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="app/templates")
 
 
 
